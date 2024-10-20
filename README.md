@@ -84,7 +84,7 @@ Interpretability: The B-cos CNN outperformed the standard CNN in terms of transp
 - Performance: Both CNN and CNNBcos achieved comparable accuracy in emotion classification, with minor performance improvements in certain emotions (e.g., happiness, anger) for the CNNBcos model.
 - Interpretability: The CNNBcos model showed significantly better gradient visualizations, highlighting critical facial areas (such as eyes and mouth) that are crucial for identifying emotions. The traditional CNN, by contrast, provided more diffuse, less intuitive heatmaps.
 
-## onclusion
+## Conclusion
 The CNNBcos model provides a viable solution to the interpretability issues of traditional CNNs. Without sacrificing classification accuracy, the B-cos CNN enhances transparency, making it easier to understand how the model arrives at its decisions. This feature is essential in domains where trust and explainability are critical, such as healthcare and human-computer interaction.
 
 By incorporating B-cos layers, we can ensure that deep learning models not only perform well but also provide insights into their decision-making processes.
